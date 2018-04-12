@@ -119,13 +119,13 @@ function square(num) {
 function cube(num) {
   // cube num and return the new value
   // code here
-  return(num ** 3);
+  return(math.pow(num,3));
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-  return(num ** exponent);
+  return(math.pow(num,exponent));
 }
 
 function roundNumber(num) {
