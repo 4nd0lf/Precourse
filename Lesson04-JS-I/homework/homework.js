@@ -97,7 +97,7 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  if (Math.isEven(num)) return(true);
+  if (num % 2 === 0) return(true);
     else return(false);
 }
 
@@ -105,8 +105,8 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  if (Math.isOdd(num)) return (true);
-    else(false);
+  if (num % 2 !== 0) return (true);
+    else return(false);
 }
 
 function square(num) {
@@ -137,9 +137,10 @@ function roundNumber(num) {
 function roundUp(num) {
   // round num up and return it
   // code here
-  return(Math.roundUp(num));
+  if (Math.round(num) < num) return(Math.round(num) + 1);
+  else return(Math.round(num));
 }
-
+ 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
@@ -158,7 +159,7 @@ function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return('Hello'+' '+ name);
+  return('Hello'+' '+ name+'!');
 }
 
 // The next three questions will have you implement math area formulas. 
