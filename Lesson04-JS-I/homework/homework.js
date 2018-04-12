@@ -151,14 +151,14 @@ function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  return(firstName + " "+ lastName);
+  return(firstName +' '+ lastName);
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return('Hello'+ " "+ name);
+  return('Hello'+' '+ name);
 }
 
 // The next three questions will have you implement math area formulas. 
