@@ -97,7 +97,7 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  if Math.isEven(num) return(true);
+  if (Math.isEven(num) return(true));
     else return(false);
 }
 
