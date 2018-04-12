@@ -97,7 +97,7 @@ function isEven(num) {
   // return true if num is even
   // otherwise return false
   // code here
-  if (num % 2 === 0) return(true);
+  if Math.isEven(num) return(true);
     else return(false);
 }
 
@@ -105,7 +105,7 @@ function isOdd(num) {
   // return true if num is odd
   // otherwise return false
   // code here
-  if (num % 2 !== 0) return (true);
+  if Math.isOdd(num) return (true);
     else(false);
 }
 
@@ -119,46 +119,46 @@ function square(num) {
 function cube(num) {
   // cube num and return the new value
   // code here
-  return(math.pow(num,3));
+  return(Math.pow(num,3));
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
   // code here
-  return(math.pow(num,exponent));
+  return(Math.pow(num,exponent));
 }
 
 function roundNumber(num) {
   // round num and return it
   // code here
-  return(math.roundNumber(num));
+  return(Math.round(num));
 }
 
 function roundUp(num) {
   // round num up and return it
   // code here
-  return(math.roundUp(num));
+  return(Math.roundUp(num));
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
   // code here
-  return(str + "!");
+  return(str + '!');
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
   // code here
-  return(firstName + lastName);
+  return(firstName + " "+ lastName);
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
   // code here
-  return('Hello '+name);
+  return('Hello'+ " "+ name);
 }
 
 // The next three questions will have you implement math area formulas. 
@@ -173,7 +173,7 @@ function getRectangleArea(length, width) {
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
   // code here
-  return((base * heigth)/2);
+  return((base * height)/2);
 }
 
 // Do not modify code below this line.
